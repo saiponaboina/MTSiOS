@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DDA55278190FA8C2004D251E /* UpdateJobVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA55277190FA8C2004D251E /* UpdateJobVC.m */; };
+		DDDEF2DE190AD0C500B8C04F /* BSKeyboardControls.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDEF2DD190AD0C500B8C04F /* BSKeyboardControls.m */; };
 		DDE1E3021909758A008D43E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE1E3011909758A008D43E6 /* Foundation.framework */; };
 		DDE1E3041909758A008D43E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE1E3031909758A008D43E6 /* CoreGraphics.framework */; };
 		DDE1E3061909758A008D43E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE1E3051909758A008D43E6 /* UIKit.framework */; };
@@ -14,13 +16,23 @@
 		DDE1E30E1909758A008D43E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE1E30D1909758A008D43E6 /* main.m */; };
 		DDE1E3121909758A008D43E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE1E3111909758A008D43E6 /* AppDelegate.m */; };
 		DDE1E3151909758A008D43E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE1E3131909758A008D43E6 /* Main.storyboard */; };
-		DDE1E3181909758A008D43E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE1E3171909758A008D43E6 /* ViewController.m */; };
 		DDE1E31A1909758A008D43E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE1E3191909758A008D43E6 /* Images.xcassets */; };
 		DDE1E3211909758B008D43E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE1E3201909758B008D43E6 /* XCTest.framework */; };
 		DDE1E3221909758B008D43E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE1E3011909758A008D43E6 /* Foundation.framework */; };
 		DDE1E3231909758B008D43E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE1E3051909758A008D43E6 /* UIKit.framework */; };
 		DDE1E32B1909758B008D43E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDE1E3291909758B008D43E6 /* InfoPlist.strings */; };
 		DDE1E32D1909758B008D43E6 /* MTS2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE1E32C1909758B008D43E6 /* MTS2Tests.m */; };
+		DDE1E33C190975DA008D43E6 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE1E337190975DA008D43E6 /* header.png */; };
+		DDE1E33D190975DA008D43E6 /* drop_down2.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE1E338190975DA008D43E6 /* drop_down2.png */; };
+		DDE1E33E190975DA008D43E6 /* button_back.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE1E339190975DA008D43E6 /* button_back.png */; };
+		DDE1E33F190975DA008D43E6 /* loading_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE1E33A190975DA008D43E6 /* loading_icon.png */; };
+		DDE1E340190975DA008D43E6 /* back_button.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE1E33B190975DA008D43E6 /* back_button.png */; };
+		DDE1E34319097735008D43E6 /* VCHome.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE1E34219097735008D43E6 /* VCHome.m */; };
+		DDE1E34919097F99008D43E6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE1E34619097F99008D43E6 /* Reachability.m */; };
+		DDE1E34A19097F99008D43E6 /* iRoidHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE1E34819097F99008D43E6 /* iRoidHelper.m */; };
+		DDE1E34E19097FBD008D43E6 /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE1E34D19097FBD008D43E6 /* iToast.m */; };
+		DDE1E35219097FD2008D43E6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE1E35119097FD2008D43E6 /* MBProgressHUD.m */; };
+		DDE1E35619099487008D43E6 /* AddJobVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE1E35519099487008D43E6 /* AddJobVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DDA55276190FA8C2004D251E /* UpdateJobVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateJobVC.h; sourceTree = "<group>"; };
+		DDA55277190FA8C2004D251E /* UpdateJobVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateJobVC.m; sourceTree = "<group>"; };
+		DDDEF2DC190AD0C500B8C04F /* BSKeyboardControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSKeyboardControls.h; sourceTree = "<group>"; };
+		DDDEF2DD190AD0C500B8C04F /* BSKeyboardControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSKeyboardControls.m; sourceTree = "<group>"; };
 		DDE1E2FE1909758A008D43E6 /* MTS2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTS2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE1E3011909758A008D43E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DDE1E3031909758A008D43E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +61,29 @@
 		DDE1E3101909758A008D43E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDE1E3111909758A008D43E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DDE1E3141909758A008D43E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DDE1E3161909758A008D43E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DDE1E3171909758A008D43E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DDE1E3191909758A008D43E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DDE1E31F1909758B008D43E6 /* MTS2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTS2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE1E3201909758B008D43E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DDE1E3281909758B008D43E6 /* MTS2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTS2Tests-Info.plist"; sourceTree = "<group>"; };
 		DDE1E32A1909758B008D43E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DDE1E32C1909758B008D43E6 /* MTS2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTS2Tests.m; sourceTree = "<group>"; };
+		DDE1E337190975DA008D43E6 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		DDE1E338190975DA008D43E6 /* drop_down2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop_down2.png; sourceTree = "<group>"; };
+		DDE1E339190975DA008D43E6 /* button_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_back.png; sourceTree = "<group>"; };
+		DDE1E33A190975DA008D43E6 /* loading_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_icon.png; sourceTree = "<group>"; };
+		DDE1E33B190975DA008D43E6 /* back_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_button.png; sourceTree = "<group>"; };
+		DDE1E34119097735008D43E6 /* VCHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCHome.h; sourceTree = "<group>"; };
+		DDE1E34219097735008D43E6 /* VCHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCHome.m; sourceTree = "<group>"; };
+		DDE1E34519097F99008D43E6 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		DDE1E34619097F99008D43E6 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		DDE1E34719097F99008D43E6 /* iRoidHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRoidHelper.h; sourceTree = "<group>"; };
+		DDE1E34819097F99008D43E6 /* iRoidHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRoidHelper.m; sourceTree = "<group>"; };
+		DDE1E34C19097FBD008D43E6 /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToast.h; sourceTree = "<group>"; };
+		DDE1E34D19097FBD008D43E6 /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
+		DDE1E35019097FD2008D43E6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DDE1E35119097FD2008D43E6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		DDE1E35419099487008D43E6 /* AddJobVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddJobVC.h; sourceTree = "<group>"; };
+		DDE1E35519099487008D43E6 /* AddJobVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddJobVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +110,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DDDEF2DB190AD0B500B8C04F /* BSKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				DDDEF2DC190AD0C500B8C04F /* BSKeyboardControls.h */,
+				DDDEF2DD190AD0C500B8C04F /* BSKeyboardControls.m */,
+			);
+			name = BSKeyBoard;
+			sourceTree = "<group>";
+		};
 		DDE1E2F519097589008D43E6 = {
 			isa = PBXGroup;
 			children = (
@@ -112,13 +152,22 @@
 		DDE1E3071909758A008D43E6 /* MTS2 */ = {
 			isa = PBXGroup;
 			children = (
+				DDDEF2DB190AD0B500B8C04F /* BSKeyBoard */,
+				DDE1E34F19097FCA008D43E6 /* Loading */,
+				DDE1E34B19097FB4008D43E6 /* iToast */,
+				DDE1E34419097F5C008D43E6 /* Helper */,
+				DDE1E336190975C8008D43E6 /* Images */,
 				DDE1E3101909758A008D43E6 /* AppDelegate.h */,
 				DDE1E3111909758A008D43E6 /* AppDelegate.m */,
 				DDE1E3131909758A008D43E6 /* Main.storyboard */,
-				DDE1E3161909758A008D43E6 /* ViewController.h */,
-				DDE1E3171909758A008D43E6 /* ViewController.m */,
 				DDE1E3191909758A008D43E6 /* Images.xcassets */,
 				DDE1E3081909758A008D43E6 /* Supporting Files */,
+				DDE1E34119097735008D43E6 /* VCHome.h */,
+				DDE1E34219097735008D43E6 /* VCHome.m */,
+				DDE1E35419099487008D43E6 /* AddJobVC.h */,
+				DDE1E35519099487008D43E6 /* AddJobVC.m */,
+				DDA55276190FA8C2004D251E /* UpdateJobVC.h */,
+				DDA55277190FA8C2004D251E /* UpdateJobVC.m */,
 			);
 			path = MTS2;
 			sourceTree = "<group>";
@@ -150,6 +199,47 @@
 				DDE1E3291909758B008D43E6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDE1E336190975C8008D43E6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DDE1E337190975DA008D43E6 /* header.png */,
+				DDE1E338190975DA008D43E6 /* drop_down2.png */,
+				DDE1E339190975DA008D43E6 /* button_back.png */,
+				DDE1E33A190975DA008D43E6 /* loading_icon.png */,
+				DDE1E33B190975DA008D43E6 /* back_button.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DDE1E34419097F5C008D43E6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DDE1E34519097F99008D43E6 /* Reachability.h */,
+				DDE1E34619097F99008D43E6 /* Reachability.m */,
+				DDE1E34719097F99008D43E6 /* iRoidHelper.h */,
+				DDE1E34819097F99008D43E6 /* iRoidHelper.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		DDE1E34B19097FB4008D43E6 /* iToast */ = {
+			isa = PBXGroup;
+			children = (
+				DDE1E34C19097FBD008D43E6 /* iToast.h */,
+				DDE1E34D19097FBD008D43E6 /* iToast.m */,
+			);
+			name = iToast;
+			sourceTree = "<group>";
+		};
+		DDE1E34F19097FCA008D43E6 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				DDE1E35019097FD2008D43E6 /* MBProgressHUD.h */,
+				DDE1E35119097FD2008D43E6 /* MBProgressHUD.m */,
+			);
+			name = Loading;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,10 +286,11 @@
 		DDE1E2F619097589008D43E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Pritesh-Mac";
 				TargetAttributes = {
 					DDE1E31E1909758B008D43E6 = {
+						DevelopmentTeam = NH3AHRYEZ3;
 						TestTargetID = DDE1E2FD1909758A008D43E6;
 					};
 				};
@@ -230,6 +321,11 @@
 			files = (
 				DDE1E31A1909758A008D43E6 /* Images.xcassets in Resources */,
 				DDE1E30C1909758A008D43E6 /* InfoPlist.strings in Resources */,
+				DDE1E33D190975DA008D43E6 /* drop_down2.png in Resources */,
+				DDE1E33C190975DA008D43E6 /* header.png in Resources */,
+				DDE1E33E190975DA008D43E6 /* button_back.png in Resources */,
+				DDE1E33F190975DA008D43E6 /* loading_icon.png in Resources */,
+				DDE1E340190975DA008D43E6 /* back_button.png in Resources */,
 				DDE1E3151909758A008D43E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +345,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDE1E3181909758A008D43E6 /* ViewController.m in Sources */,
 				DDE1E3121909758A008D43E6 /* AppDelegate.m in Sources */,
+				DDE1E34319097735008D43E6 /* VCHome.m in Sources */,
+				DDE1E35619099487008D43E6 /* AddJobVC.m in Sources */,
+				DDA55278190FA8C2004D251E /* UpdateJobVC.m in Sources */,
+				DDE1E34A19097F99008D43E6 /* iRoidHelper.m in Sources */,
+				DDE1E34E19097FBD008D43E6 /* iToast.m in Sources */,
+				DDDEF2DE190AD0C500B8C04F /* BSKeyboardControls.m in Sources */,
+				DDE1E34919097F99008D43E6 /* Reachability.m in Sources */,
 				DDE1E30E1909758A008D43E6 /* main.m in Sources */,
+				DDE1E35219097FD2008D43E6 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +408,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -318,7 +420,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sai Kumar PONABOINA";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sai Kumar PONABOINA";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -336,6 +439,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "706769b8-7a96-41e4-9c81-ee689c442040";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -344,7 +448,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -357,7 +460,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sai Kumar PONABOINA";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sai Kumar PONABOINA";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -368,6 +472,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "706769b8-7a96-41e4-9c81-ee689c442040";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -378,10 +483,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sai Kumar PONABOINA";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MTS2/MTS2-Prefix.pch";
 				INFOPLIST_FILE = "MTS2/MTS2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "706769b8-7a96-41e4-9c81-ee689c442040";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +500,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sai Kumar PONABOINA";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MTS2/MTS2-Prefix.pch";
 				INFOPLIST_FILE = "MTS2/MTS2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "706769b8-7a96-41e4-9c81-ee689c442040";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -402,8 +515,9 @@
 		DDE1E3341909758B008D43E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTS2.app/MTS2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -417,6 +531,7 @@
 				);
 				INFOPLIST_FILE = "MTS2Tests/MTS2Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -425,8 +540,9 @@
 		DDE1E3351909758B008D43E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTS2.app/MTS2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -436,6 +552,7 @@
 				GCC_PREFIX_HEADER = "MTS2/MTS2-Prefix.pch";
 				INFOPLIST_FILE = "MTS2Tests/MTS2Tests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -460,6 +577,7 @@
 				DDE1E3321909758B008D43E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDE1E3331909758B008D43E6 /* Build configuration list for PBXNativeTarget "MTS2Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +586,7 @@
 				DDE1E3351909758B008D43E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
